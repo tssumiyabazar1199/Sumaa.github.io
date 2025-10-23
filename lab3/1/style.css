@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    color: #000;
+}
+
+.header {
+    background-color: #2b4d9a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 6px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+.search-box {
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    width: 120px;
+    padding: 4px;
+}
+
+.search-box button {
+    padding: 4px 6px;
+}
+
+.main {
+    flex: 1;
+    padding: 15px;
+    background-color: #e9eef9;
+}
+
+.profile {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+.photo img {
+    width: 200px;
+    border: 1px solid #999;
+    margin-right: 15px;
+}
+
+.info p {
+    margin: 5px 0;
+}
